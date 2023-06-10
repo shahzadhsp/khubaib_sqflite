@@ -1,7 +1,7 @@
 class NotesModel {
   int? id;
   String title;
-int age;
+  int age;
   String description;
   String email;
 
@@ -13,12 +13,11 @@ int age;
       required this.description});
 
   NotesModel.fromMap(Map<String, dynamic> res)
-    : id = res['id'],
+      : id = res['id'],
         title = res['title'],
         email = res['email'],
         age = 1,
         description = res['description'];
-  
 
   Map<String, Object?> tomap() {
     return {
@@ -30,3 +29,11 @@ int age;
     };
   }
 }
+// NotesModel.fromMap(Map<String, dynamic> res)
+  //   {
+  //     id = res['id'];
+  //       title = res['title'];
+  //       email = res['email'];
+  //       age = 1;
+  //       description = res['description'];
+  //   }

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.khubaib_sqflite">
-   <application
-        android:label="khubaib_sqflite"
+package="com.example.khubaib_sqflite">
+    <application
+        android:label="my_task"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
